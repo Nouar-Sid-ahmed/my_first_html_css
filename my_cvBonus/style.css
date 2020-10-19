@@ -1,0 +1,94 @@
+body {
+    background-image: url(./Data.jpg);
+}
+body div img {
+    display: block;
+    float: left;
+}
+header {
+    height: 210px;
+}
+.name {
+    float: right;
+    display: block;
+    margin: auto;
+    color: white;
+    font-size: 50px;
+}
+.email {
+    color: white;
+    margin-top: 45px;
+    float: right;
+    font-size: 30px;
+}
+body header div {
+    width: 98%;
+    position: absolute;
+    display: block;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+.lien {
+    flex: 1;
+    border: none;
+    border-color: navy;
+    background: linear-gradient(#759EB8,navy);
+    list-style-type: none;
+    border-radius: 20px;
+}
+.colone {
+    flex: 9;
+    display: flex;
+    flex-direction: column;
+}
+.competences {
+    flex: 1;
+    position: relative;
+    background-color: #7392B7;
+    color: white;
+    border: none;
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+.experiences {
+    flex: 1;
+    position: relative;
+    background-color: #B3C5D7;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+label {
+    color: navy;
+}
+.photo {
+    border-radius: 30px;
+    border: double;
+    border-color: navy;
+}
+footer {
+    background-color: #C5D5EA;
+    color: navy;
+    display: flex;
+    border-radius: 30px;
+    text-align: center;
+}
+@keyframes myrotate {
+     0% {
+       transform: rotate(0deg);
+     }
+    100% {
+       transform: rotate(359deg); 
+    }
+}
+
+.icon:hover {
+     animation: myrotate 1s;
+}
+
+.icon {
+     cursor:pointer;
+}

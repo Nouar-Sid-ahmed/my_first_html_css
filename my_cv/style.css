@@ -1,0 +1,58 @@
+body div img {
+    display: block;
+    float: left;
+}
+header {
+    height: 230px;
+}
+.name {
+    float: right;
+    display: block;
+    margin: auto;
+    color: red;
+    font-size: 20px;
+}
+.email {
+    margin-top: 35px;
+    float: right;
+    font-size: 20px;
+}
+body header div {
+    width: 98%;
+    position: absolute;
+    display: block;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.lien {
+    flex: 1;
+    border: dotted;
+    border-color: navy;
+}
+.colone {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+}
+.competences {
+    flex: 1;
+    position: relative;
+    background-color: #80acf2;
+    color: white;
+    border: none;
+}
+.experiences {
+    flex: 1;
+    position: relative;
+    background-color: #bef17f;
+    color: white;
+    border: none;
+}
+.git {
+    text-decoration: none;
+    color:black;
+}
+
